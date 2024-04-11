@@ -1,0 +1,18 @@
+.thead {
+  background-color: rgb(6, 177, 177);
+  color: #fff;
+}
+
+.stripedTable {
+  width: 80%;
+  text-align: center;
+  margin: 60px auto;
+}
+
+.stripedTable tr:nth-child(even) {
+  background-color: #d6d5d5;
+}
+
+.stripedTable tr {
+  height: 40px;
+}

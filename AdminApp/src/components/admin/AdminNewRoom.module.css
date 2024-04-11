@@ -1,0 +1,74 @@
+.layout {
+  display: grid;
+  grid-template-columns: 1fr 6fr;
+  box-sizing: border-box;
+}
+
+.overall {
+  width: 95%;
+  justify-self: center;
+  /* margin-top: 30px; */
+  margin-bottom: 60px;
+}
+
+.hotel-form {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 50px;
+  row-gap: 20px;
+  padding: 30px;
+  border-radius: 10px;
+
+  box-shadow: 1px 1px 5px 1px rgba(128, 128, 128, 0.507);
+}
+
+.overall h2 {
+  box-shadow: 1px 1px 5px 1px rgba(128, 128, 128, 0.507);
+  padding: 10px 30px;
+  border-radius: 10px;
+  margin: 30px 0;
+}
+
+.hotel-form span {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 15px;
+}
+
+.hotel-form label {
+  font-weight: 500;
+}
+
+.hotel-form input {
+  padding: 10px;
+  padding-left: 0;
+  border: none;
+  border-bottom: 1px solid gray;
+}
+
+.hotel-form textarea:first-child {
+  height: 100px;
+}
+
+.rooms {
+  width: 100%;
+  font-size: 1rem;
+  margin-bottom: 5px;
+}
+
+.hotel-form button {
+  background-color: green;
+  border: none;
+  height: 40px;
+  width: 100px;
+  color: #fff;
+  cursor: pointer;
+}
+
+.hotel-form input:focus {
+  outline: none;
+}
+
+.hotel-form textarea {
+  resize: none;
+}

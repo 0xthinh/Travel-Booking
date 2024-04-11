@@ -1,0 +1,38 @@
+.signup {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  /* Stay center */
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.signup form {
+  display: flex;
+  flex-direction: column;
+}
+
+.signup input {
+  font-size: 1.2rem;
+  padding: 5px;
+  width: 350px;
+  height: 40px;
+  margin-top: 5px;
+}
+
+.signup h2 {
+  margin-bottom: 10px;
+  font-size: 2rem;
+}
+
+.signup button {
+  height: 40px;
+  background-color: #1759b6;
+  border: none;
+  color: #fff;
+  margin-top: 10px;
+  font-size: 1rem;
+}

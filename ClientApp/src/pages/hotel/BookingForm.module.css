@@ -1,0 +1,74 @@
+.booking {
+  margin-left: 240px;
+  margin-right: 240px;
+}
+.date-and-info {
+  display: flex;
+  gap: 60px;
+  width: 100%;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 0;
+  /* width: 100%; */
+}
+
+.info input {
+  width: 100%;
+  height: 30px;
+  margin-top: 5px;
+  margin-bottom: 10px;
+  padding: 5px;
+}
+
+.info form {
+  margin-top: 20px;
+  /* display: flex;
+  flex-direction: column; */
+  gap: 5px;
+}
+
+/* Select room */
+.room-selections {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 60px;
+}
+
+.room {
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.room-selections .price {
+  font-size: 1.2rem;
+  font-weight: 700;
+}
+
+/* bill-and-order */
+
+.bill-and-order {
+  margin-top: 30px;
+  display: flex;
+  gap: 120px;
+}
+
+.bill select {
+  height: 30px;
+  margin-top: 10px;
+}
+
+.reserve-button {
+  background-color: #0071c2;
+  height: 50px;
+  width: 200px;
+  font-weight: bold;
+  border: none;
+  border-radius: 10px;
+  color: #fff;
+  cursor: pointer;
+}
